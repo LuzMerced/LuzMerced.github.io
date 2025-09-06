@@ -1,0 +1,21 @@
+{
+    "name": "Luz Merced Card",
+    "short_name": "LuzMerced",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#333333",
+    "theme_color": "#333333",
+    "description": "Business card page for Luz Merced.",
+    "icons": [
+        {
+            "src": "images/Logo.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "images/Logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
