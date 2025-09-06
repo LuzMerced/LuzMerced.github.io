@@ -26,22 +26,14 @@ Una tarjeta de presentación digital moderna y responsiva que permite a los prof
 ### 👤 Información Personal
 
 - **Nombre completo**: Título principal de la tarjeta
-- **Ubicación**: Ciudad y país/estado
-- **Descripción de servicios**: Breve presentación del negocio
+- **Título Profesional**: Ciudad y país/estado
 
 ### 📞 Botones de Contacto
 
-- **Botón de Servicios**: Muestra lista detallada de servicios disponibles
 - **Llamar**: Enlace directo para realizar llamadas telefónicas
 - **WhatsApp**: Acceso directo al chat de WhatsApp
-- **Instagram**: Enlace al perfil de Instagram
-- **Facebook**: Enlace al perfil de Facebook
 - **Email**: Enlace para enviar correos electrónicos
 - **Agregar Contacto**: Función para descargar información de contacto (vCard)
-
-### 🔧 Servicios Predefinidos (Ejemplo)
-
-Compra y venta de propiedades, Asesoría personalizada, gestión de documentos, analisis de mercado, búsqueda de financiamiento.
 
 ## 🛠️ Tecnologías Utilizadas
 

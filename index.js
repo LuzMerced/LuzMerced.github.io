@@ -32,7 +32,7 @@ N:Merced;Luz M.;;;
 ORG:Agente Independiente
 TEL;TYPE=CELL:787-632-3330
 EMAIL:luzmariaseg@gmail.com
-URL:https://lourymarmerced.github.io/
+URL:https://luzmerced.github.io/
 NOTE:
 END:VCARD`;
 
