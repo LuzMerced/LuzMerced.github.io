@@ -20,7 +20,7 @@ function compartirEnlace() {
 /* Función que muestra la lista de servicios disponibles */
 /* PARA EDITAR: Cambiar el texto dentro de alert() por tus servicios */
 function mostrarServicios() {
-  alert("Compra y venta de propiedades, Asesoría personalizada, gestión de documentos, analisis de mercado, búsqueda de financiamiento.");
+  alert("Servicios disponibles:\n\n• Plan médico Individual o Familiar\n• Planes Médicos Grupales (PYMES)\n• Medicare Advantage");
 }
 
 /* Función para agregar contacto - Compatible con móviles */
