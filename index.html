@@ -1,60 +1,66 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Business Card</title>
-  <link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
-  <link rel="manifest" href="manifest.json"/>
-  <link rel="stylesheet" href="index.css"/>
-</head>
-<body>
-  <div class="card">
-    <div class="image-container">
-      <img src="images/Banner.png" alt="Banner" class="banner"/>
-      <img src="images/Profile.png" alt="Foto de perfil" class="profile-img"/>
-    </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Business Card</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="image-container">
+        <img src="images/Banner.png" alt="Banner" class="banner" />
+        <img src="images/Profile.png" alt="Foto de perfil"
+          class="profile-img" />
+      </div>
 
-    <h1>Luz M. Merced Serrano</h1>
-    <p class="titulo">Agente Independiente</p>
+      <h1>Luz M. Merced Serrano</h1>
+      <p class="titulo">Agente Independiente</p>
 
-    <div class="button-grid">
-      <div class="social-row">
-        <!-- <a class="social-btn" href="https://www.facebook.com/share/16tKTuFM62/" aria-label="Facebook">
+      <div class="button-grid">
+        <div class="social-row">
+          <!-- <a class="social-btn" href="https://www.facebook.com/share/16tKTuFM62/" aria-label="Facebook">
           <i class="fab fa-facebook"></i>
         </a>
         <a class="social-btn" href="https://www.instagram.com/lourymarmerced_realtor?igsh=MW1xZDJ5MjFvNHg0Yg==" aria-label="Instagram">
           <i class="fab fa-instagram"></i>
         </a> -->
+        </div>
+
+        <button class="boton" onclick="mostrarServicios()">
+          <i class="fas fa-edit"></i> Servicios
+        </button>
+        <a class="boton" href="tel:+17876323330">
+          <i class="fas fa-phone"></i> Llamar
+        </a>
+        <a class="boton" href="https://wa.me/7876323330">
+          <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+        <a class="boton" href="mailto:luzmariaseg@gmail.com">
+          <i class="fas fa-envelope"></i> Email
+        </a>
       </div>
 
-      <button class="boton" onclick="mostrarServicios()">
-        <i class="fas fa-edit"></i> Servicios
-      </button>
-      <a class="boton" href="tel:+17876323330">
-        <i class="fas fa-phone"></i> Llamar
-      </a>
-      <a class="boton" href="https://wa.me/7876323330">
-        <i class="fab fa-whatsapp"></i> WhatsApp
-      </a>
-      <a class="boton" href="mailto:luzmariaseg@gmail.com">
-        <i class="fas fa-envelope"></i> Email
-      </a>
+      <div class="double-row">
+        <button class="boton half" onclick="compartirEnlace()">
+          <i class="fas fa-share-alt"></i>Compartir
+        </button>
+        <button class="boton half" onclick="agregarContacto()">
+          <i class="fas fa-user-plus"></i>Agregar contacto
+        </button>
+      </div>
+
+      <p class="powered-by">
+        <span style="cursor:pointer;"
+          onclick="window.location.href='mailto:HATechnologiesPR@outlook.com'">Powered
+          by HA Technologies</span>
+      </p>
     </div>
 
-    <div class="double-row">
-      <button class="boton half" onclick="compartirEnlace()">
-        <i class="fas fa-share-alt"></i>Compartir
-      </button>
-      <button class="boton half" onclick="agregarContacto()">
-        <i class="fas fa-user-plus"></i>Agregar contacto
-      </button>
-    </div>
-
-    <p class="powered-by">Powered by HA Technologies</p>
-  </div>
-
-  <script src="index.js"></script>
-</body>
+    <script src="index.js"></script>
+  </body>
 </html>
